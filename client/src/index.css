@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    font-family: 'Nunito', sans-serif;
+   
+ 
+}
+[data-theme="dark"] #root{
+    scrollbar-color: #b3a6e4 #ffffff !important;
+}
+
